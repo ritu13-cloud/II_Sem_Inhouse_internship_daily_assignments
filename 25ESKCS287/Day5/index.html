@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIT Hackathon 2026 | Code the Future</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">SKIT</span> Hack26
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#prizes">Prizes</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#register" class="nav-btn">Register</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-glowing-orb"></div>
+        <div class="hero-content">
+            <div class="badge">🤖 Next-Gen AI & Innovation</div>
+            <h1 class="hero-title">SKIT HACKATHON <span class="text-gradient">2026</span></h1>
+            <p class="hero-tagline">Architect the unexpected. Fuel your code with AI, disrupt the status quo, and engineer solutions for tomorrow.</p>
+            
+            <div class="hero-meta">
+                <div class="meta-item"><i class="far fa-calendar-alt"></i> 10 July 2026</div>
+                <div class="meta-item"><i class="far fa-clock"></i> 24 Hours Non-Stop</div>
+                <div class="meta-item"><i class="fas fa-map-marker-alt"></i> SKIT, Jaipur</div>
+            </div>
+
+            <a href="#register" class="btn btn-primary">Register Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="countdown-section">
+        <div class="container">
+            <h3 class="section-sub">Hacking Begins In</h3>
+            <div class="countdown-container" id="countdown">
+                <div class="time-box"><span id="days">00</span><p>Days</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Minutes</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Seconds</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About the <span class="text-gradient">Event</span></h2>
+            <div class="about-grid">
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>What is SKIT Hackathon?</h3>
+                    <p>A flagship 24-hour hackathon designed to bring out the sharpest minds from across the region to collaborate, hack, and build cutting-edge tech prototypes from scratch.</p>
+                </div>
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Open Theme</h3>
+                    <p>No bounding boxes. No restrictive problem statements. Whether it's AI/ML, Web3, IoT, or CyberSec—bring your vision to life under an unrestricted framework of open innovation.</p>
+                </div>
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-university"></i></div>
+                    <h3>Eligibility</h3>
+                    <p>Open to students from all engineering and degree colleges across Jaipur. Form alliances, learn fast, and pit your skills against the ultimate developer talent pool.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prizes" id="prizes">
+        <div class="container">
+            <h2 class="section-title">Grand <span class="text-gradient">Rewards</span></h2>
+            <div class="prizes-grid">
+                <div class="glass-card prize-card standard">
+                    <div class="prize-rank">2nd Runner Up</div>
+                    <div class="prize-val">₹15,000</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Premium Goodies Kit</li>
+                        <li><i class="fas fa-check"></i> Certificate of Excellence</li>
+                        <li><i class="fas fa-check"></i> Internship Opportunities</li>
+                    </ul>
+                </div>
+                <div class="glass-card prize-card winner">
+                    <div class="prize-badge">Champion</div>
+                    <div class="prize-rank">1st Place</div>
+                    <div class="prize-val">₹50,000</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Gold Trophy & Swag Kits</li>
+                        <li><i class="fas fa-check"></i> Certificate of Excellence</li>
+                        <li><i class="fas fa-check"></i> Direct Interview Panels</li>
+                    </ul>
+                </div>
+                <div class="glass-card prize-card standard">
+                    <div class="prize-rank">1st Runner Up</div>
+                    <div class="prize-val">₹25,000</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Elite Goodies Kit</li>
+                        <li><i class="fas fa-check"></i> Certificate of Excellence</li>
+                        <li><i class="fas fa-check"></i> Internship Opportunities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rules" id="rules">
+        <div class="container">
+            <h2 class="section-title">Guild <span class="text-gradient">Rules</span></h2>
+            <div class="rules-wrapper glass-card">
+                <div class="rule-item">
+                    <div class="rule-num">01</div>
+                    <div>
+                        <h4>Squad Size</h4>
+                        <p>Teams must consist of 2 to 4 members. Cross-college teams are fully permitted.</p>
+                    </div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-num">02</div>
+                    <div>
+                        <h4>Registration Fee</h4>
+                        <p>A minimal entry pool of ₹200 per team, payable during physical screening validation.</p>
+                    </div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-num">03</div>
+                    <div>
+                        <h4>Venue & Ethics</h4>
+                        <p>100% on-campus physical hackathon at SKIT Jaipur. Code must be built completely during the 24-hour timeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <h2 class="section-title">Event <span class="text-gradient">Timeline</span></h2>
+            <div class="timeline-container">
+                <div class="timeline-block left">
+                    <div class="glass-card timeline-content">
+                        <h3>01. Registration Phase</h3>
+                        <p>Submit your team matrices and a raw architectural overview of your open theme concept idea before deadline lines close.</p>
+                    </div>
+                </div>
+                <div class="timeline-block right">
+                    <div class="glass-card timeline-content">
+                        <h3>02. The Hackathon</h3>
+                        <p>Doors open at SKIT. 24 hours of pure uninterrupted development, mentorship check-ins, and survival caffeine rounds.</p>
+                    </div>
+                </div>
+                <div class="timeline-block left">
+                    <div class="glass-card timeline-content">
+                        <h3>03. Code Freeze & Review</h3>
+                        <p>Push your last commits to GitHub. Present prototypes live in multi-stage pitch slots to specialized jury pools.</p>
+                    </div>
+                </div>
+                <div class="timeline-block right">
+                    <div class="glass-card timeline-content">
+                        <h3>04. Final Results</h3>
+                        <p>Closing ceremony evaluations. Top tier ranks, cash rewards, global certificates, and corporate incubation pipelines revealed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="speakers" id="speakers">
+        <div class="container">
+            <h2 class="section-title">Jury & <span class="text-gradient">Mentors</span></h2>
+            <div class="grid-4-col">
+                <div class="glass-card profile-card">
+                    <div class="profile-avatar"><i class="fas fa-user-astronaut"></i></div>
+                    <h4>Tech Lead, OpenAI</h4>
+                    <p>Evaluator Core</p>
+                </div>
+                <div class="glass-card profile-card">
+                    <div class="profile-avatar"><i class="fas fa-user-shield"></i></div>
+                    <h4>VP of Architecture</h4>
+                    <p>Infrastructure Mentor</p>
+                </div>
+                <div class="glass-card profile-card">
+                    <div class="profile-avatar"><i class="fas fa-user-ninja"></i></div>
+                    <h4>Principal Dev Advocate</h4>
+                    <p>UI & Product Judge</p>
+                </div>
+                <div class="glass-card profile-card">
+                    <div class="profile-avatar"><i class="fas fa-user-tie"></i></div>
+                    <h4>SKIT Alumni / Founder</h4>
+                    <p>Strategic Advisor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sponsors" id="sponsors">
+        <div class="container">
+            <h2 class="section-title">Supported <span class="text-gradient">By</span></h2>
+            <div class="sponsor-brands">
+                <div class="sponsor-logo glass-card"><i class="fab fa-google fa-2x"></i> <span>Google Cloud</span></div>
+                <div class="sponsor-logo glass-card"><i class="fab fa-aws fa-2x"></i> <span>AWS Ignite</span></div>
+                <div class="sponsor-logo glass-card"><i class="fab fa-microsoft fa-2x"></i> <span>Azure Scale</span></div>
+                <div class="sponsor-logo glass-card"><i class="fab fa-github fa-2x"></i> <span>GitHub Universe</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked <span class="text-gradient">Questions</span></h2>
+            <div class="faq-list">
+                <div class="glass-card faq-item">
+                    <div class="faq-question">Who is eligible to participate? <i class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer"><p>Any undergraduate or graduate student enrolled in any higher education institute/college situated in Jaipur can sign up.</p></div>
+                </div>
+                <div class="glass-card faq-item">
+                    <div class="faq-question">What if I don't have a structured idea yet? <i class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer"><p>Don't sweat it. The theme is fully Open Innovation. You can modify, refine, or pivot your project concept right up until the official hacking clock fires up.</p></div>
+                </div>
+                <div class="glass-card faq-item">
+                    <div class="faq-question">What do I need to bring to campus? <i class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer"><p>Your setup rigs (laptops, component hardware, extension nodes), personal IDs, and standard overnight gear. Food and high-speed networks are entirely on us.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="register-section" id="register">
+        <div class="container">
+            <div class="form-wrapper glass-card">
+                <h2 class="section-title">Secure Your <span class="text-gradient">Slot</span></h2>
+                <p class="form-desc">Slots are highly constrained by hardware lab spacing thresholds. Ensure accuracy before processing submission frames.</p>
+                
+                <form id="hackathonForm" autocomplete="off">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label for="fullName">Lead Name *</label>
+                            <input type="text" id="fullName" required placeholder="John Doe">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Contact Email *</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone Line *</label>
+                            <input type="tel" id="phone" required placeholder="+91 XXXXX XXXXX">
+                        </div>
+                        <div class="input-group">
+                            <label for="college">College Name *</label>
+                            <input type="text" id="college" required placeholder="SKIT, Jaipur">
+                        </div>
+                        <div class="input-group">
+                            <label for="teamName">Team Variant Name *</label>
+                            <input type="text" id="teamName" required placeholder="CyberPhantoms">
+                        </div>
+                        <div class="input-group">
+                            <label for="teamSize">Team Dimension *</label>
+                            <select id="teamSize" required>
+                                <option value="" disabled selected>Select headcount</option>
+                                <option value="2">2 Members</option>
+                                <option value="3">3 Members</option>
+                                <option value="4">4 Members</option>
+                            </select>
+                        </div>
+                        <div class="input-group full-width">
+                            <label for="socials">Dev Repositories (GitHub / LinkedIn) *</label>
+                            <input type="url" id="socials" required placeholder="https://github.com/your-profile">
+                        </div>
+                        <div class="input-group full-width">
+                            <label for="idea">Project Base Concept Idea (Open Innovation Abstract) *</label>
+                            <textarea id="idea" rows="4" required placeholder="Give a brief description on what you're trying to create..."></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Initialize Registration <i class="fas fa-terminal"></i></button>
+                </form>
+                
+                <div id="successMessage" class="success-message">
+                    <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Registration submitted successfully!</h3>
+                    <p>Your team core data has been cached. Welcome to the grid.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SKIT Hackathon. Engineered for Innovators.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
