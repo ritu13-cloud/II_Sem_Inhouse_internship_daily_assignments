@@ -1,0 +1,13 @@
+[
+  { "name": "London (GMT/BST)", "value": "Europe/London" },
+  { "name": "Paris, Berlin, Rome (CET/CEST)", "value": "Europe/Paris" },
+  { "name": "New York, Toronto (EST/EDT)", "value": "America/New_York" },
+  { "name": "Chicago, Winnipeg (CST/CDT)", "value": "America/Chicago" },
+  { "name": "Denver, Edmonton (MST/MDT)", "value": "America/Denver" },
+  { "name": "Los Angeles, Vancouver (PST/PDT)", "value": "America/Los_Angeles" },
+  { "name": "Tokyo, Seoul (JST)", "value": "Asia/Tokyo" },
+  { "name": "Sydney, Melbourne (AEST/AEDT)", "value": "Australia/Sydney" },
+  { "name": "Mumbai, New Delhi (IST)", "value": "Asia/Kolkata" },
+  { "name": "Dubai, Abu Dhabi (GST)", "value": "Asia/Dubai" },
+  { "name": "Singapore, Hong Kong (SGT)", "value": "Asia/Singapore" }
+]

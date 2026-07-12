@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Zone Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h2>Time Zone Converter</h2>
+        
+        <div class="input-group">
+            <label for="input-time">Select Date & Time:</label>
+            <input type="datetime-local" id="input-time">
+        </div>
+
+        <div class="input-group">
+            <label for="from-zone">From Time Zone:</label>
+            <select id="from-zone">
+                </select>
+        </div>
+
+        <div class="input-group">
+            <label for="to-zone">To Time Zone:</label>
+            <select id="to-zone">
+                </select>
+        </div>
+
+        <button id="convert-btn">Convert Time</button>
+
+        <div class="result-card" id="result-card" style="display: none;">
+            <h3>Converted Time:</h3>
+            <p id="converted-time"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
