@@ -68,4 +68,4 @@ document.addEventListener('DOMContentLoaded', () => {
         convertedTimeText.textContent = targetString;
         resultCard.style.display = 'block';
     });
-})
+}
